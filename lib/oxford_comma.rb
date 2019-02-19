@@ -13,6 +13,7 @@ def oxford_comma(array)
       newArray << ("#{element}, ")
     end
     newArray[newArray.length] = array[array.length]
+    return newArray
   end 
 end
 
