@@ -11,7 +11,8 @@ def oxford_comma(array)
     newArray = []
     array.each do |element|
       newArray << "#{element},"
-    
+    end 
+    return newArray
   end 
 end
 
