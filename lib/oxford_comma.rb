@@ -10,12 +10,9 @@ def oxford_comma(array)
   elsif array.length > 3
     newArray = []
     array.each do |element|
-      newArray << "#{element},"
+      newArray << ("#{element},")
     end 
     return newArray
   end 
 end
 
-array.each do |name| 
-    temp <<  (badge_maker(name))
-  end
