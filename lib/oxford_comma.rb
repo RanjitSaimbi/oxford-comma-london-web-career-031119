@@ -8,9 +8,11 @@ def oxford_comma(array)
     newArray = array.insert(1, ", ").insert(3, ", ").insert(4, "and ")
     return newArray.join
   elsif array.length > 3
-    array.join(", ")
     position_for_and = array.length - 3
-    array.insert(position_for_and, and)
+    newArray = array.insert(position_for_and, and)
+    
+    newArray.join(", ")
+  
   end 
 end
 
