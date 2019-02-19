@@ -12,6 +12,7 @@ def oxford_comma(array)
     array.each do |element|
       newArray << ("#{element}, ")
     end 
+    newArray.insert(newArray.length - 2, "and ")
     return newArray.join
   end 
 end
