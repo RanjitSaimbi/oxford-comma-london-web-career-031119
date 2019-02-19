@@ -10,7 +10,7 @@ def oxford_comma(array)
   elsif array.length > 3
     newArray = []
     array.each do |element|
-      newArray << ("#{element},")
+      newArray << ("#{element}, ")
     end 
     return newArray.join
   end 
