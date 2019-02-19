@@ -12,7 +12,7 @@ def oxford_comma(array)
     array.each do |element|
       newArray << ("#{element}, ")
     end
-    newArray[newArray.length] = array[array.length]
+    newArray[newArray.length - 1] = array[array.length - 1]
     return newArray
   end 
 end
