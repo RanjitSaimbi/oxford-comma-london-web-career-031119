@@ -12,7 +12,7 @@ def oxford_comma(array)
     array.each do |element|
       newArray << ("#{element},")
     end 
-    return newArray
+    return newArray.join
   end 
 end
 
