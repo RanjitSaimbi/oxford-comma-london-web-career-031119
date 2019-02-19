@@ -13,7 +13,7 @@ def oxford_comma(array)
       newArray << ("#{element}, ")
     end 
     newArray.insert(newArray.length - 2, "and ")
-    return newArray
+    return newArray.join
   end 
 end
 
