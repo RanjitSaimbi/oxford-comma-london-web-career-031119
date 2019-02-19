@@ -15,3 +15,6 @@ def oxford_comma(array)
   end 
 end
 
+array.each do |name| 
+    temp <<  (badge_maker(name))
+  end
